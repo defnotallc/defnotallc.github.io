@@ -12,8 +12,8 @@ relevant, its own GitHub Pages project site. See the table below.
 
 ```
 .
-├── app-ads.txt           Shared across all DefNotA apps; one section per app.
-├── index.html            Minimal landing page listing DefNotA's apps.
+├── app-ads.txt           Shared across all Definitely Not A LLC apps; one section per app.
+├── index.html            Minimal landing page listing Definitely Not A LLC's apps.
 └── apps/
     └── <app-slug>/       Per-app notes, metadata, and links.
         └── README.md
