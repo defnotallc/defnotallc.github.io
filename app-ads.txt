@@ -1,0 +1,6 @@
+# defnotallc.github.io — app-ads.txt
+# Per IAB Tech Lab spec v1.0: https://iabtechlab.com/app-ads-txt/
+# Single shared file at the developer-site host root; one section per app.
+
+# --- Western Dance Studio (com.defnota.WesternDanceStudio) ---
+google.com, pub-1306237465756584, DIRECT, f08c47fec0942fa0
