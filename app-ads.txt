@@ -1,11 +1,17 @@
-# defnotallc.github.io — app-ads.txt
-# Per IAB Tech Lab spec v1.0: https://iabtechlab.com/app-ads-txt/
-# Single shared file at the developer-site host root; one section per app.
+# =============================================
+# Definitely Not A LLC - app-ads.txt
+# Per IAB Tech Lab spec v1.0
+# https://iabtechlab.com/app-ads-txt/
+# =============================================
 
-# app-ads.txt authorizes by PUBLISHER ID, not per app. The single line below
-# authorizes every app published under AdMob publisher pub-1306237465756584,
-# which includes both apps listed here.
-
-# --- Western Dance Studio (com.defnota.WesternDanceStudio) ---
-# --- HuntForge (DefNotA.HunterAlly) ---
+# This file authorizes Google AdMob for all apps
+# published under the following publisher ID.
 google.com, pub-1306237465756584, DIRECT, f08c47fec0942fa0
+
+# Apps authorized under this file:
+# - Western Dance Studio
+# - HuntForge
+# - Angler's Ally
+# - FatFingers Guitar
+# - MagyarReady
+# - VitalPup
