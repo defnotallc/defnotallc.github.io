@@ -55,6 +55,17 @@
     .app:hover { border-color: var(--accent); transform: translateY(-1px); }
     .app strong { display: block; font-size: 17px; margin-bottom: 2px; }
     .app span { color: var(--muted); font-size: 14px; }
+    .status {
+      display: inline-block;
+      font-size: 12px;
+      padding: 1px 7px;
+      border-radius: 999px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .status.ready { background: #e6f4e6; color: #2e6b2e; }
+    .status.progress { background: #fff3d9; color: #8a5f1a; }
+    .status.review { background: #ffe5e5; color: #9c2e2e; }
     footer {
       margin-top: 48px;
       color: var(--muted);
@@ -67,17 +78,43 @@
   <main class="wrap">
     <h1>Definitely Not A LLC</h1>
     <p class="tagline">Independent iOS apps from Definitely Not A LLC.</p>
-
+    
     <h2>Apps</h2>
-
-    <a class="app" href="https://defnotallc.github.io/western-dance-studio/">
-      <strong>Western Dance Studio</strong>
-      <span>Country &amp; western partner dances, line dances, metronome, and dance-hall finder. <em>Privacy policy &amp; support →</em></span>
+    
+    <!-- Angler's Ally -->
+    <a class="app" href="#">
+      <strong>Angler's Ally <span class="status ready">Ready for Distribution</span></strong>
+      <span>Fishing companion app with catch tracking, spot logging, and smart recommendations.</span>
     </a>
 
+    <!-- MagyarReady -->
+    <a class="app" href="#">
+      <strong>MagyarReady <span class="status progress">In Development</span></strong>
+      <span>Hungarian language learning app designed for citizenship interview preparation.</span>
+    </a>
+
+    <!-- HuntForge -->
     <a class="app" href="https://defnotallc.github.io/huntforge/">
-      <strong>HuntForge</strong>
+      <strong>HuntForge <span class="status review">In Review</span></strong>
       <span>Hunting reference for licensed adult hunters — species almanac, hunt-by-state, gear, shot placement &amp; harvesting guides. <em>Privacy policy &amp; support →</em></span>
+    </a>
+
+    <!-- VitalPup -->
+    <a class="app" href="#">
+      <strong>VitalPup <span class="status progress">In Review</span></strong>
+      <span>Dog companion app for tracking vaccines, weight, food recommendations, and finding nearby vets.</span>
+    </a>
+
+    <!-- FatFingers Guitar -->
+    <a class="app" href="#">
+      <strong>FatFingers Guitar <span class="status ready">Ready for Distribution</span></strong>
+      <span>Guitar learning app focused on chord recognition, fretboard mastery, and beginner-friendly practice.</span>
+    </a>
+
+    <!-- Western Dance Studio -->
+    <a class="app" href="https://defnotallc.github.io/western-dance-studio/">
+      <strong>Western Dance Studio <span class="status progress">In Development</span></strong>
+      <span>Country &amp; western partner dances, line dances, metronome, and dance-hall finder. <em>Privacy policy &amp; support →</em></span>
     </a>
 
     <footer>
