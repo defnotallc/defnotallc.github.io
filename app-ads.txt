@@ -1,17 +1,15 @@
 # =============================================
 # Definitely Not A LLC - app-ads.txt
 # Per IAB Tech Lab spec v1.0
-# https://iabtechlab.com/app-ads-txt/
 # =============================================
 
-# This file authorizes Google AdMob for all apps
-# published under the following publisher ID.
 google.com, pub-1306237465756584, DIRECT, f08c47fec0942fa0
 
-# Apps authorized under this file:
-# - Western Dance Studio
-# - HuntForge
+# Apps authorized under this publisher ID:
 # - Angler's Ally
 # - FatFingers Guitar
+# - HuntForge
 # - MagyarReady
 # - VitalPup
+# - Western Dance Studio
+# - SourdoughCraft
