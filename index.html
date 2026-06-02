@@ -66,13 +66,29 @@
     .status.ready { background: #e6f4e6; color: #2e6b2e; }
     .status.progress { background: #fff3d9; color: #8a5f1a; }
     .status.review { background: #ffe5e5; color: #9c2e2e; }
+    .linktree {
+      margin-top: 40px;
+      padding: 20px;
+      background: var(--card);
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      text-align: center;
+    }
+    .linktree a {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    .linktree a:hover {
+      text-decoration: underline;
+    }
     footer {
-      margin-top: 48px;
+      margin-top: 32px;
       color: var(--muted);
       font-size: 13px;
-      line-height: 1.6;
+      text-align: center;
     }
-    footer a { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -118,9 +134,14 @@
       <span>Country &amp; western partner dances, line dances, metronome, and dance-hall finder. <em>Privacy policy &amp; support →</em></span>
     </a>
 
+    <!-- Linktree Section -->
+    <div class="linktree">
+      <p style="margin: 0 0 8px 0; color: var(--muted);">Find us on social media &amp; more:</p>
+      <a href="https://linktr.ee/Defnota.official" target="_blank">https://linktr.ee/Defnota.official</a>
+    </div>
+
     <footer>
-      © Definitely Not A LLC. Contact: <a href="mailto:defnota.official@gmail.com">defnota.official@gmail.com</a>.<br>
-      <a href="https://linktr.ee/Defnota.official" target="_blank" rel="noopener">Linktree →</a>
+      © Definitely Not A LLC • <a href="mailto:defnota.official@gmail.com">defnota.official@gmail.com</a>
     </footer>
   </main>
 </body>
